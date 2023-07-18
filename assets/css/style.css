@@ -6,6 +6,12 @@
     background-color: aqua;
 }
 
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+}
+
 .left-side {
     display: flex;
     justify-content: center;
@@ -13,8 +19,8 @@
     flex-direction: column;
     background-color: red;
 
-    width: 100vw;
-    height: 50vh;
+    width: 50vw;
+    height: 100vh;
 }
 
 .right-side {
@@ -22,8 +28,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: greenyellow;
+    background-color: rgb(47, 255, 71);
 
-    width: 100vw;
-    height: 50vh;
+    width: 50vw;
+    height: 100vh;
 }
