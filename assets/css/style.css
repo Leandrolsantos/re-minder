@@ -21,7 +21,7 @@
 
     width: 30vw;
     height: 100vh;
-    border: 5px solid white;
+    border: 1px solid white;
     box-shadow: inset 3px 3px 4px black;
 }
 
@@ -47,6 +47,6 @@ h1 {
 
     width: 70vw;
     height: 100vh;
-    border: 3px solid transparent;
+    border: 1px solid transparent;
     box-shadow: inset 3px 3px 4px black;
 }
