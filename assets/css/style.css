@@ -51,6 +51,16 @@
 
 }
 
+#select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 25vw;
+    padding: 10px;
+}
+
 .right-side {
     display: flex;
     justify-content: center;
