@@ -1,4 +1,3 @@
-//Dark-Light Mode
 const chk = document.getElementById('chk');
 
 chk.addEventListener('change', () => {

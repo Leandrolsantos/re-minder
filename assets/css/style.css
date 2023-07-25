@@ -5,23 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    transition: 0.8s ease-in-out;
-    background-color: #fafafa;
-    height: 100vh;
-    transition: background 0.2s linear;
-}
-
-body.dark {
-    background: #292c35;  
-}
-
 .container {
     display: grid;
     width: 100%;
@@ -107,18 +90,26 @@ body.dark {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(255, 255, 255);
+    background-color: #292c35;
     width: 70vw;
     height: 100vh;
     box-shadow: inset 3px 3px 4px black;
 }
 
-.dark,
-.light {
+/*Dark-Light Mode*/
+
+body, .right-side {
     display: flex;
-    flex-direction: column;
+    background: #ffffff; 
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    transition: background 0.2s linear;
+}
+
+
+body.dark {
+  background: #292c35;  
 }
 
 .checkbox {
@@ -139,7 +130,7 @@ body.dark {
     position: relative;
     height: 26px;
     width: 50px;
-    margin-top: 20px;
+    margin-top: 2rem;
 
     transform: scale(1.5);
 }
