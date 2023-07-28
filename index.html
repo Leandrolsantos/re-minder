@@ -1,64 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
     
-    <title>Re-Minder</title>
+        <title>Re-Minder</title>
 </head>
 <body>
-    <div class="container">
+        <div class="container">
         <div class="left-side">
-            <span class="titulo"><h1>Re-Minder</h1></span>
-            <img class="logo" src="/assets/img/logo.png" alt="">
+        <span class="titulo"><h1>Re-Minder</h1></span>
+        <img class="logo" src="/assets/img/logo.png" alt="">
             
-            <span>
-                <select id="select">
-                    <option class="option-style" value="1">Anotação</option>
-                    <option class="option-style" value="2">Lembrete</option>
-                    <option class="option-style" value="3">Contas a pagar</option>
-                    <option class="option-style" value="4">Filmes à assistir</option>
-                    <option class="option-style" value="5">Séries à assistir</option>
-                    <option class="option-style" value="6">Outro</option>
-                    </select>
-                </span>
+        <button class="add-button" id="btnAddInput" type="submit" onclick="criarInputTexto()">Adicionar</button>
 
-                <!-- Botão que será clicado para adicionar o Input -->
-                <button class="add-button" id="btnAddInput" type="submit" onclick="criarInputTexto()">Adicionar</button>
+        <div class="main">
+         
+        <!-- Dark/Light Mode  -->
+        <input type="checkbox" class="checkbox" id="chk">                      
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+        </div>
+        <!---->
 
-                <div class="dark">
-                    <h1></h1>
-                </div>
+        </div>
             
-                <div class="light">
-                    <h1></h1>
-                </div>
-            
-            
-                <div class="main">
-            
-                    <input type="checkbox" class="checkbox" id="chk">
-                    
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        <i class="fas fa-sun"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
+        <div class="right-side">
+            <div class="input-text" id="inputsContainer"></div>
+        </div>
 
-            </div>
-            
-            <div class="right-side">
-                <h1></h1>
-                
-                <label class="label-input"></label>
-                <div class="input-text" id="inputsContainer"></div>
-            </div>
-            
         </div>
         
         <script src="/assets/js/script.js"></script>

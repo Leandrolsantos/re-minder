@@ -54,19 +54,6 @@
 
 }
 
-#select {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    width: 25vw;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    box-shadow: 2px 2px 3px black;
-}
-
 .option-style {
     font-size: 1.2rem;
     color: black;
@@ -94,6 +81,16 @@
     width: 70vw;
     height: 100vh;
     box-shadow: inset 3px 3px 4px black;
+}
+
+textarea, .input-text {
+    border-radius: 5px;
+    text-align:left;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*Dark-Light Mode*/

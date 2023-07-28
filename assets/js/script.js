@@ -6,9 +6,10 @@ chk.addEventListener('change', () => {
 
 function criarInputTexto() {
     
-    var novoInput = document.createElement("input");
+    var novoInput = document.createElement("textarea");
     novoInput.type = "text";
-    
+
     var container = document.getElementById("inputsContainer");
     container.appendChild(novoInput);
+
 }
