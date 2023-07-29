@@ -10,15 +10,15 @@ Deploy: (EM BREVE)
 
 ## Sobre
 
-(EM BREVE)
+Se trata de uma ferramenta para criar inumeros blocos de texto e deixar salvo na sua tela para anotações em geral.
 
 ### Objetivos
 
-(EM BREVE)
+Praticar minhas habilidades atuais e ver quantas implementações de outros projetos consigo adaptar e que fique funcional.
 
 ### Desafio
 
-(EM BREVE)
+Conseguir adaptar com sucesso o maior número de implementações possíveis, dentro dos meus conhecimentos atuais.
 
 ### Conclusão
 
