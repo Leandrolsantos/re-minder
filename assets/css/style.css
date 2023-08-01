@@ -72,6 +72,11 @@
     font-size: 1.4rem;
     font-weight: 600;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(244, 242, 242), rgba(0, 117, 251, 0.5));
+    transition: 0.4s ease;
+}
+
+.add-button:active {
+    box-shadow: inset -4px 4px 0 #2b2a2ae9;
 }
 
 .right-side {
