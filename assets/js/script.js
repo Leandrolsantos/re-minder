@@ -42,14 +42,4 @@ setInterval(() => {
 
 }, 1000);
 
-// Título texto
-
-const pegaTitulo = document.querySelector('.input-text');
-
-pegaTitulo.addEventListener('click', () => {
-    document.body.textarea.inputsContainer + pegaTitulo();    
-})
-
-pegaTitulo();
-
 
