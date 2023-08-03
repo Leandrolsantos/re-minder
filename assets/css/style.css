@@ -68,7 +68,7 @@
     -webkit-text-stroke-width: 0.9px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.732);
     -webkit-text-stroke-color: black;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 1px black;
     font-size: 1.4rem;
     font-weight: 600;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(244, 242, 242), rgba(0, 117, 251, 0.5));
@@ -76,7 +76,27 @@
 }
 
 .add-button:active {
-    box-shadow: inset -4px 4px 0 #2b2a2ae9;
+    box-shadow: inset -3px 3px 0 #2b2a2ae9;
+}
+
+.add-button-name {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 9px;
+    margin-top: 10px;
+    width: 25vw;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+    -webkit-text-stroke-width: 0.9px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.732);
+    -webkit-text-stroke-color: black;
+    box-shadow: 3px 3px 2px black;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .right-side {
