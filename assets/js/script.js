@@ -41,3 +41,15 @@ setInterval(() => {
     secondHand.style.transform = `translate(0, -50%) rotate(${seconds * 6}deg)`; 
 
 }, 1000);
+
+// Título texto
+
+const pegaTitulo = document.querySelector('.input-text');
+
+pegaTitulo.addEventListener('click', () => {
+    document.body.textarea.inputsContainer + pegaTitulo();    
+})
+
+pegaTitulo();
+
+
