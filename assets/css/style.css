@@ -24,7 +24,7 @@
 }
 
 .logo {
-    width: 10%;
+    width: 120px;
     background: none;
     display: flex;
     position: absolute;
@@ -185,8 +185,8 @@ body.dark {
 
 /* Clock */
 .clock {
-    min-width: 155px;
-    min-height: 155px;
+    min-width: 150px;
+    min-height: 150px;
     margin-top: 60px;
     margin-bottom: 60px;
     border-radius: 600px;
@@ -204,8 +204,8 @@ body.dark {
 }
 
 .number {
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    color: rgba(255, 255, 255);
+    font-size: 1.1rem;
     font-weight: 600;
     position: absolute;
     width: 100%;
@@ -258,7 +258,7 @@ body.dark {
 
 .second-hand {
     width: 3.2px;
-    height: 75px;
+    height: 72px;
     background-color: #ffffff;
     position: absolute;
     transform: translate(0, -50%);
@@ -271,7 +271,7 @@ body.dark {
 
 .minute-hand {
     width: 6px;
-    height: 75px;
+    height: 71px;
     background-color: #333;
     position: absolute;
     transform: translate(0, -50%);
@@ -284,7 +284,7 @@ body.dark {
 
 .hour-hand {
     width: 6px;
-    height: 55px;
+    height: 52px;
     background-color: #333;
     position: absolute;
     transform: translate(0, -50%);
@@ -305,134 +305,33 @@ body.dark {
     z-index: 3;
 }
 
-@media (max-width:900px){
+@media (max-width: 600px) {
+    * {
+       max-height: 100vh;
+       max-width: 100vw; 
+    }
 
     .titulo {
-        display: flex;
-        position: absolute;
-        font-size: 0.6rem;
-        top: 25px;
-        color: rgb(85, 159, 243);
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
-        text-shadow: 1.5px 1.5px 2.5px black;
-    }    
-
-    .clock {
-        min-width: 105px;
-        min-height: 105px;
-        margin-top: 150px;
-        margin-bottom: 60px;
-        border-radius: 600px;
-        border: 4px solid rgba(85, 159, 243);;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.782);
-        transition: 1.2s ease-in-out;
-    }
-
-    .number {
-        font-size: 0.7rem;
-        font-weight: 500;
-        color: #ffffff;    
-    }
-
-    .second-hand {
-        width: 1.5px;
-        height: 46px;
-        background-color: #ffffff;
-        position: absolute;
-        transform: translate(0, -50%);
-        transform-origin: bottom center;
-        border-radius: 5px;
-        border: 0.01px solid rgba(1, 183, 255, 0.199);
-        box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.782);
-        z-index: 1;
-    }
-    
-    .minute-hand {
-        width: 4.5px;
-        height: 45px;
-        background-color: #333;
-        position: absolute;
-        transform: translate(0, -50%);
-        transform-origin: bottom center;
-        border-radius: 5px;
-        border: 0.02px solid white;
-        box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.782);
-        z-index: 1;
-    }
-    
-    .hour-hand {
-        width: 4.5px;
-        height: 37px;
-        background-color: #333;
-        position: absolute;
-        transform: translate(0, -50%);
-        transform-origin: bottom center;
-        border-radius: 13px;
-        border: 0.2px solid white;
-        box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.782);
-        z-index: 1;
-    }
-    
-    .center {
-        width: 9.5px;
-        height: 9.5px;
-        border-radius: 22px;
-        background-color: #0ea7ee;
-        position: absolute;
-        border: 2px solid white;
-        z-index: 3;
+        font-size: 0.69rem;
     }
 
     .logo {
-        width: 24%;
-        background: none;
-        display: flex;
-        position: absolute;
-        top: 140px;
-        background-color: rgba(255, 255, 255, 0.447);
-        padding: 10px;
-        border: 4px solid rgba(60, 109, 164);
-        border-radius: 50px;
-        box-shadow: 1px 1px 2px black;
-        transition: 0.5s ease-in-out;
-        margin-top: 10px; 
+        width: 6rem;
+        margin-top: 50px;
+    }
+
+    .clock {
+        display: none;
     }
 
     .add-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 8px;
-        margin-top: 10px;
-        width: 25vw;
-        border-radius: 5px;
-        font-size: 0.7rem;
-        color: white;
-        -webkit-text-stroke-width: 0.9px;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.732);
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 0.4px;
-        box-shadow: 2px 2px 1px black;
-        font-weight: 600;
-        background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(244, 242, 242), rgba(0, 117, 251, 0.5));
-        transition: 0.4s ease;
+        font-size: 1.1rem;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.408);
     }
 
-    textarea, .input-text {
-        border-radius: 5px;
-        text-align: left;
-        font-size: 1.3rem;
-        padding: 1rem;
-        margin: 0.5rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 90%;
+    textarea {
+        width: 200px;
+        margin-left: 10px;
     }
     
 }
