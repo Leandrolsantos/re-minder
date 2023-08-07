@@ -1,10 +1,12 @@
 # Re-Minder
 
-![](./)
+![](./assets/img/1.png)
 
-![](./)
+![](./assets/img/2.png)
 
-![](./)
+![](./assets/img/3.png)
+
+![](./assets/img/4G.gif)
 
 Deploy: (EM BREVE)
 
