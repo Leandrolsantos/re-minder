@@ -8,7 +8,7 @@
 
 ![](./assets/img/4G.gif)
 
-Deploy: (EM BREVE)
+Deploy: https://re-minder.vercel.app/
 
 ## Sobre
 
